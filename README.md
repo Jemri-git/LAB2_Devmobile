@@ -39,3 +39,12 @@ Créer une méthode calculer_impots() pour calculer les impots depuis les inform
 Après remplissage des champs avec les informations nécessaires, on obtient le résultat des impots locaux
 <img width="400" height="500" alt="lab2_screen" src="https://github.com/user-attachments/assets/02e8d910-2044-4a76-b2bb-200bdd359892" />
 
+# L'implémentation des tests unitaires
+Les tests sont définis dans main/test/java/com/example/calculdimpots/ExampleUnitTest.java comme suit:
+- testImpotBase
+- testImpotAvecPiscine
+- testImpotSansPiscine
+- testImpotTotal
+<img width="1000" height="202" alt="Tests_unitaires" src="https://github.com/user-attachments/assets/d58ccf3f-9a98-4e99-a5dc-43193c79600c" />
+
+
