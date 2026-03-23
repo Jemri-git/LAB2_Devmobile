@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calcul d\'impots</string>
+    <string name="calcul">Calcul des dépôts locaux</string>
+    <string name="nom">Nom complet</string>
+    <string name="nom1">Nom</string>
+    <string name="adr">23 gueliz, Marrakech</string>
+    <string name="adr1">Adresse</string>
+    <string name="surface1">Surface</string>
+    <string name="surface">Surface (m²)</string>
+    <string name="nbpiece1">Nombre de pièces</string>
+    <string name="piece">4</string>
+    <string name="Calc_fin">Calculer les dépôts</string>
+</resources>

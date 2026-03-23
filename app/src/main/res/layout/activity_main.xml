@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="409dp"
+    android:layout_height="689dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/calcul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#733BD9"
+        android:text="@string/calcul"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#F6F4F4"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nom1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nom1"/>
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nom"
+        android:inputType="text"
+        android:background="@android:drawable/edit_text"/>
+
+    <TextView
+        android:id="@+id/adr1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adr1" />
+
+    <EditText
+        android:id="@+id/adr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/adr"
+        android:inputType="text"
+        android:background="@android:drawable/edit_text"/>
+
+    <TextView
+        android:id="@+id/surface1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/surface1" />
+
+    <EditText
+        android:id="@+id/surface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/edit_text"
+        android:ems="10"
+        android:hint="@string/surface"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/nbpiece1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nbpiece1" />
+
+    <EditText
+        android:id="@+id/piece"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/piece"
+        android:inputType="number"
+        android:background="@android:drawable/edit_text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/piscine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Piscine" />
+
+        <Button
+            android:id="@+id/Calc_fin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#454141"
+            android:text="@string/Calc_fin" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resultat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
